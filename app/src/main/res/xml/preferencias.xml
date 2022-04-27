@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Unidades">
+
+        <ListPreference
+            android:defaultValue="standard"
+            android:entries="@array/unidades_entries"
+            android:entryValues="@array/unidades_values"
+            android:title="Unidades"
+            android:key="unidades"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Idioma">
+
+        <ListPreference
+            android:defaultValue="Español"
+            android:entries="@array/idioma_entries"
+            android:entryValues="@array/idioma_values"
+            android:title="Idioma"
+            android:key="idioma"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Tema">
+
+        <ListPreference
+            android:defaultValue="standard"
+            android:entries="@array/unidades_entries"
+            android:entryValues="@array/unidades_values"
+            android:title="Tema"
+            android:key="tema"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Api">
+
+        <EditTextPreference
+            android:defaultValue="4d56a19050d401d7ba6b982145243362"
+            android:key="apiKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Api key" />
+    </PreferenceCategory>
+</PreferenceScreen>

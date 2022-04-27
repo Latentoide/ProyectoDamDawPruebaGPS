@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProyectoDamDaw</string>
+    <string name="Settings">Setting</string>
+    <string name="standard">Standard</string>
+    <string name="metric">Metrico</string>
+    <string name="imperial">Imperial</string>
+    <string name="espanyol">Español</string>
+    <string name="ingles">Ingles</string>
+    <string name="af">Afrikaans</string>
+</resources>
